@@ -1,4 +1,4 @@
-   $(".panel-heading").on('show.bs.collapse', function() {
+   $(".panel-heading").on('click', function() {
       console.log("inside");
       $(this).find('img').addClass('flip-horizontally');
     });
