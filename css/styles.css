@@ -1,0 +1,113 @@
+body {
+  background-image: linear-gradient(#9d65c9, #6862E6);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h3{
+  padding: 10% 0 5% 0;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.faq-section {
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 470px;
+  width: 900px;
+  border-radius: 25px;
+}
+
+.woman-online {
+  width: 100%;
+  position: absolute;
+  right: 10%;
+  padding-top: 70px;
+
+}
+.illustration-box{
+  width: 40%;
+  position: absolute;
+  right: 80%;
+  padding-top: 180px;
+}
+
+.logo-div {
+  background-image: url("../images/bg-pattern-desktop.svg");
+   background-size: contain;
+
+
+}
+
+
+.ing{
+  font-size: .75rem;
+  color: black;
+}
+.panel-body{
+    font-size: .75rem;
+    color: grey;
+}
+
+.arrow-down{
+  float: right;
+  padding-top: 10px;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.flip-horizontally {
+  transform: rotate(180deg);
+}
+
+.flip-vertically {
+  transform: rotate(360deg);
+}
+
+.active{
+  background:#FF0 ;
+}
+@media (max-width: 1028px) {
+
+  .woman-online {
+    width: 200px;
+    position: absolute;
+    top: -150px;
+    text-align: center;
+
+  }
+  .illustration-box{
+    width: 20%;
+    position: absolute;
+    left: 65px;
+    padding-top: 0;
+  }
+  .faq-section {
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+
+  }
+  .faq-div{
+    padding-top: 17%;
+  }
+}
