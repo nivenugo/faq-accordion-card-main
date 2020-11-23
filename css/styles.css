@@ -12,7 +12,9 @@ h3{
   font-family: 'Ubuntu', sans-serif;
 }
 
-
+.panel-heading[aria-expanded="true"]  img{
+    transform: rotate(180deg);
+}
 .faq-section {
   background-color: white;
   position: absolute;
